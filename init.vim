@@ -12,3 +12,9 @@ lua require('plugin-config/bufferline')
 set background=dark
 colorscheme one
 " colorscheme nord
+
+
+" lsp
+lua require('lsp/nvim-cmp-config')
+lua require('lsp/diagnostic_signs')
+lua require('lsp/language_servers')
